@@ -7,7 +7,7 @@ source $PWD/.env
 cat >$PWD/config.json <<EOF
 {
   "database": {
-    "engine": "mysql",
+    "engine": "mariadb",
     "host": "db",
     "name": "$MYSQL_DATABASE",
     "user": "$MYSQL_USER",

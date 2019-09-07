@@ -1,6 +1,6 @@
 {
   "database": {
-    "engine": "mysql",
+    "engine": "mariadb",
     "host": "db",
     "name": "nginx-proxy-manager",
     "user": "nginx-proxy-user",
