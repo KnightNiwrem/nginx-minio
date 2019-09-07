@@ -13,7 +13,8 @@ services:
   minio:
     command: server /data
     environment:
-
+      - MINIO_ACCESS_KEY
+      - MINIO_SECRET_KEY
     image: 'minio/minio'
     ports:
      - '${MINIO_PORT}:9000'
